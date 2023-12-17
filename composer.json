@@ -1,0 +1,34 @@
+{
+    "name": "soixt/slack-api-laravel",
+    "description": "Laravel wrapper for soixt/slack-api-php",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "soixt/slack-api-php": "^1.0",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SlackApi\\Laravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SOIXT",
+            "email": "sasa@infinity-x.tech"
+        }
+    ],
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SlackApi\\Laravel\\SlackApiServiceProvider"
+            ],
+            "aliases": {
+                "SlackApi": "SlackApi\\Laravel\\Facades\\SlackApi",
+                "SlackAuth": "SlackApi\\Laravel\\Facades\\SlackAuth"
+            }
+        }
+    }
+    
+}
