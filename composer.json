@@ -1,10 +1,10 @@
 {
-    "name": "soixt/slack-api-laravel",
-    "description": "Laravel wrapper for soixt/slack-api-php",
+    "name": "infinityxtech/slack-api-laravel",
+    "description": "Laravel wrapper for infinityxtech/slack-api-php",
     "type": "library",
     "require": {
         "php": "^8.0",
-        "soixt/slack-api-php": "^1.0",
+        "infinityxtech/slack-api-php": "^1.0",
         "illuminate/support": "^8.0"
     },
     "autoload": {
@@ -14,8 +14,8 @@
     },
     "authors": [
         {
-            "name": "SOIXT",
-            "email": "sasa@infinity-x.tech"
+            "name": "InfinityXTech",
+            "email": "business@infinity-x.tech"
         }
     ],
     "license": "MIT",
